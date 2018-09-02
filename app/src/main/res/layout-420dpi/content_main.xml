@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/mainbtn"
+        android:drawableStart="@mipmap/whatsappico"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Whatsapp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#737373"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/instabtn"
+        android:layout_width="325dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/button5"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/mainbtn"
+        android:drawableStart="@mipmap/insta_icon"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Instagram"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#737373"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/twitterbtn"
+        android:layout_width="325dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/button5"
+        android:layout_marginTop="192dp"
+        android:background="@drawable/mainbtn"
+        android:drawableStart="@mipmap/twitter_icon"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Twitter"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#737373"
+        android:textSize="20sp" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/circlebtn"
+        app:srcCompat="@drawable/tick_white" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageButton"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/circlebtn"
+        app:srcCompat="@drawable/tick_white" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageButton"
+        android:layout_marginTop="202dp"
+        android:background="@drawable/circlebtn"
+        app:srcCompat="@drawable/tick_white" />
+
+    <Button
+        android:id="@+id/activatebtn"
+        android:layout_width="274dp"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
+        android:background="@drawable/activatebtndraw"
+        android:fontFamily="@font/amiko_semibold"
+        android:text="Activate"
+        android:textAllCaps="false"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="145dp"
+        android:text="@string/notfy"
+        android:textColor="@color/colorPrimary"
+        android:textSize="80sp" />
+
+</RelativeLayout>
